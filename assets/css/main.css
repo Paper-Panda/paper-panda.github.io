@@ -236,7 +236,7 @@ input, select, textarea {
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #ffffff;
+		/* color: #ffffff; */
 		font-weight: 600;
 		line-height: 1.15;
 		margin: 0 0 1rem 0;
@@ -250,7 +250,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
-			color: #fed330;
+			/* color: #fed330; */
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
@@ -261,39 +261,37 @@ input, select, textarea {
 		}
 
 	h1 {
+		color: #fed330;
 		font-size: 2.25rem;
 		line-height: 1.15;
 		letter-spacing: 0.5rem;
 	}
 
-	.mustard h1 {
-		color: #fed330;
-	}
-
 	h2 {
+		color: #fed330;
 		font-size: 1.5rem;
 		line-height: 1.15;
 		letter-spacing: 0.5rem;
 	}
 
-	.mustard h2 {
-		color: #fed330;
-	}
-
 	h3 {
+		color: #fed330;;
 		font-size: 1rem;
 	}
 
 	h4 {
+		color: #FFFFFF;
 		font-size: 0.8rem;
 	}
 
 
 	h5 {
+		color: #fed330;
 		font-size: 0.7rem;
 	}
 
 	h6 {
+		color: #fed330;
 		font-size: 0.6rem;
 	}
 
