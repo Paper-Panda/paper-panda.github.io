@@ -171,6 +171,18 @@ input, select, textarea {
 
 	/*END*/
 
+	/*MAKING RAINBOW COLORED TEXT*/
+
+	.rainbow {
+	        background-image: linear-gradient(to right, /*#FF9AA2, #FFB7B2, #FFDAC1, #E2F0CB, #B5EAD7, #C7CEEA*/ /*#FFFFCC, #FFD9C3, #FFB3B9, #FF8CB0, #FF66A6*/ /*#ffffb9, #ffc9ae, #ff999f, #ff7998, #ff6e8d*/ #ffffa6, /*#ffba98,*/ #fed330, #ff7f87, #ff5c7e, #ff5971);
+	        -webkit-background-clip: text;
+	        -moz-background-clip: text;
+	        background-clip: text;
+	        color: transparent;
+	      }
+
+	/*END*/
+
 
 	body, input, select, textarea {
 		color: #ffffff;
@@ -238,6 +250,7 @@ input, select, textarea {
 		}
 
 		h1.major, h2.major, h3.major, h4.major, h5.major, h6.major {
+			color: #fed330;
 			border-bottom: solid 1px #ffffff;
 			width: -moz-max-content;
 			width: -webkit-max-content;
@@ -253,10 +266,18 @@ input, select, textarea {
 		letter-spacing: 0.5rem;
 	}
 
+	.mustard h1 {
+		color: #fed330;
+	}
+
 	h2 {
 		font-size: 1.5rem;
 		line-height: 1.15;
 		letter-spacing: 0.5rem;
+	}
+
+	.mustard h2 {
+		color: #fed330;
 	}
 
 	h3 {
@@ -266,6 +287,7 @@ input, select, textarea {
 	h4 {
 		font-size: 0.8rem;
 	}
+
 
 	h5 {
 		font-size: 0.7rem;
@@ -767,7 +789,20 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 
-			/* Another Zoom Code if needed, to conserve image quality:
+
+		/* WATTPAD */
+
+		.wattpad {
+			width: 16px;
+      background: url("images/wattpad.png") no-repeat;
+		 }
+		 .wattpad:hover {
+			 width: 16px;
+		   background: url("images/wattpad-mustard.png") no-repeat;
+		  }
+
+
+		/* Another Zoom Code if needed, to conserve image quality:
 
 			.zoomin img {
 			      height: 200px;
