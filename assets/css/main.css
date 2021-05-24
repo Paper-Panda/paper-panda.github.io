@@ -705,7 +705,7 @@ input, select, textarea {
 			font-family: 'Font Awesome 5 Brands';
 		}
 
-/* Image */
+/* IMAGE */
 
 	.image {
 		border-radius: 4px;
@@ -791,11 +791,11 @@ input, select, textarea {
 
 		/* WATTPAD */
 
-		.wattpad {
+		.wttpad {
 			width: 16px;
       background: url("images/wattpad.png") no-repeat;
 		 }
-		 .wattpad:hover {
+		 .wttpad:hover {
 			 width: 16px;
 		   background: url("images/wattpad-mustard.png") no-repeat;
 		  }
